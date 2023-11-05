@@ -27,4 +27,10 @@ fn main() {
     let _ar: [i32; 5] = [1, 2, 3, 4, 5];
 
     println!("{:#?}", _ar);
+
+    my_func();
+}
+
+fn my_func() {
+    println!("My function");
 }
